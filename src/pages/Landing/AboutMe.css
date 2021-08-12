@@ -1,0 +1,102 @@
+.aboutMe {
+    text-align: center;
+    height: 100%;
+    min-width: 300px;
+    font-family: Barlow;
+    position: absolute;
+    z-index: 100;
+    margin-top: 3%;
+}
+
+.aboutTitle {
+  font-size: xx-large;
+}
+
+.personalSummary {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+/* Medium devices (large Mobile phones, 375px) */
+@media only screen and (min-width: 375px) {
+  /* summary and heading */
+  .personalSummary {
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white; 
+  }
+  .aboutTitle {
+    font-size: medium;
+  }
+}
+/* Medium devices (large Mobile phones, 600px to 767px) */
+@media only screen and (min-width: 600px) {
+    /* summary and heading */
+    .personalSummary {
+      font-size: 15px;
+      padding-left: 75px;
+      padding-right: 75px;
+      color:black;
+    }
+    .aboutTitle {
+      font-size: large;
+    }
+  }
+  
+  /* Medium devices (Ipad, 768px and 1023px) */
+  @media only screen and (min-width: 768px) {
+        /* summary and heading */
+        .personalSummary {
+          font-size: 15px;
+          padding-left: 75px;
+          padding-right: 75px;
+          color: black;
+        }
+        .aboutTitle {
+          font-size: larger;
+        }
+  }
+  
+  /* Medium devices (Ipad Pro 1024px and 1223px) */
+  @media only screen and (min-width: 1024px) {
+    /* summary and heading */
+    .personalSummary {
+      font-size: 15px;
+      padding-left: 125px;
+      padding-right: 125px;
+      color: black;
+    }
+    .aboutTitle {
+      font-size: larger;
+    }
+  }
+  
+  /* Medium devices (laptops, 1224px and 1823px) */
+  @media only screen and (min-width: 1224px) {
+    /* summary and heading */
+    .personalSummary {
+      font-size: 25px;
+      padding-left: 200px;
+      padding-right: 200px;
+      color: black;
+    }
+    .aboutTitle {
+      font-size: xx-large;
+    }
+  }
+  
+  /* Medium devices (Desktops, 1824px and up) */
+  @media only screen and (min-width: 1824px) {
+      /* summary */
+      .personalSummary {
+          font-size: 30px;
+          padding-left: 200px;
+          padding-right: 200px;
+      }
+      .aboutTitle {
+        font-size: xx-large;
+      }
+  }

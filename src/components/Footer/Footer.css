@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;    
+}
+
+.footerContainer {
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width:100%;
+    height: auto; 
+    bottom: 0; 
+    position:fixed;
+    z-index:100;
+}
+.section {
+    max-width: 33.334%; 
+    display:grid;
+}
+
+#github{
+    text-align: center;
+}
+
+#codepen{
+    text-align: center;
+}
+
+#linkedin{
+    text-align: center;
+}
+
+.image-responsive {
+    height: 50%;
+    position:relative; 
+}
