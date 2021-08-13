@@ -1,5 +1,8 @@
+.navigation {
+  z-index: 100;
+}
+
 .navigationBar {
-    position: sticky;
     z-index: 100;
     width: 100%;
 }
@@ -18,8 +21,6 @@ ul {
     text-align: center;
     padding: 14px 16px;
     font-family: Barlow;
-    font-weight: bold; 
-
 }
 
 li:hover {
@@ -32,7 +33,7 @@ li:hover {
 @media only screen and (min-width: 375px) {
     /* nav headings */
     li {
-      font-size: 20px; 
+      font-size: 18px; 
     }
 }
 
@@ -40,7 +41,7 @@ li:hover {
 @media only screen and (min-width: 600px) {
     /* nav headings */
     li {
-      font-size: 20px;
+      font-size: 18px;
     }
 }
   
@@ -48,7 +49,7 @@ li:hover {
   @media only screen and (min-width: 768px) {
     /* nav headings */
     li {
-      font-size: 25px;
+      font-size: 20px;
     }
   }
   
@@ -56,14 +57,14 @@ li:hover {
   @media only screen and (min-width: 1024px) {
     /* nav headings */
     li {
-      font-size: 25px;
+      font-size: 20px;
     }
   }  
   /* Medium devices (laptops, 1224px and 1823px) */
   @media only screen and (min-width: 1224px) {
     /* nav headings */
     li {
-      font-size: 35px;
+      font-size: 25px;
     }
   }
   
@@ -71,6 +72,6 @@ li:hover {
   @media only screen and (min-width: 1824px) {
       /* nav headings*/
       li {
-          font-size: 35px;
+          font-size: 25px;
     }
   }

@@ -6,6 +6,7 @@
 
 .footerContainer {
     display:flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
     width:100%;
@@ -13,10 +14,12 @@
     bottom: 0; 
     position:fixed;
     z-index:100;
+    background-image: linear-gradient(grey, whitesmoke);
+
 }
-.section {
-    max-width: 33.334%; 
-    display:grid;
+.section { 
+    position: relative;
+    margin-top:35px;
 }
 
 #github{
@@ -32,6 +35,6 @@
 }
 
 .image-responsive {
-    height: 50%;
+    height: 50px;
     position:relative; 
 }
