@@ -1,45 +1,20 @@
 
-import {Switch, BrowserRouter as Router, Link, Route} from "react-router-dom";
+import {Switch, BrowserRouter as Router, Route} from "react-router-dom";
 import MyNavbar from './components/Navbar/MyNavbar';
-import AboutMe from './pages/Landing/AboutMe';
-import Footer from './components/Footer/Footer';
 import './App.css';
+import Home from './Pages/Home/Home'
 
 function App() {
   return (
-  <div>
-    <Router>
-      <div className="App">
+  <div className='App'>
+      <Router>
         <MyNavbar />
-      </div>
-      <div>
-        <Route exact path="/">
-          <AboutMe />
-        </Route>
-
-        {/* <Route path="/portfolio">
-          <Portfolio />
-        </Route>
-
-        <Route path="/contact">
-          <Contact />
-        </Route>
-
-        <Route path="/resume">
-          <Resume />
-        </Route> */}
-
-        <Route path='*'>
-          <AboutMe />
-        </Route>
-
-      </div>
-    </Router>
-    <div className='bottomNav'>
-      <Footer />
-    </div>
+        <Switch>
+          <Route path='/' exact component={Home}/>
+        </Switch>
+      </Router>
   </div>
-  );
+  )
 }
 
 export default App;
