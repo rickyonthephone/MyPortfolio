@@ -1,33 +1,45 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-}
-
-.hero-container {
+.about-container {
     /* background: url(); */
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-shadow: inset 0 0 0 1000px rgba( 0, 0, 0, 0.2);
     object-fit: contain;
+    background-image: linear-gradient(to bottom right, whitesmoke, grey);
 }
 
-.hero-container > h1{
+.headShot {
+    display: inline;
+    width:150px;
+    height:auto;
+    position:relative;
+    margin-top: -20px;
+    padding-left: 5px;
+}
+
+.about-container > h1{
     font-size: 100px;
     color:whitesmoke;
-    margin-top: -100px;
+    margin-top: 20px;
     padding-left: 5px;
+    position:relative; 
     
 }
 
-.hero-container > p {
-    margin-top: 8px;
+.about-body-1, .about-body-2, .about-body-3 {
+    padding-top: 50px;
     padding-left: 5px;
+    padding-right: 10px;
+}
+
+.about-body-3 {
+    padding-bottom: 25px;
+}
+
+.about-container > p {
+    margin-top: 8px;
     font-size: 2rem;
     color: whitesmoke;
     font-size: 32px;
@@ -35,20 +47,19 @@ video {
 }
 
 @media screen and (max-width: 960px) {
-    .hero-container > h1 {
+    .about-container > h1 {
       font-size: 70px;
-      margin-top: -150px;
+      margin-top: 20px;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .hero-container > h1 {
+    .about-container > h1 {
       font-size: 50px;
-      margin-top: -100px;
+      margin-top:10px;
     }
   
-    .hero-container > p {
+    .about-container > p {
       font-size: 30px;
     }
   }
-  

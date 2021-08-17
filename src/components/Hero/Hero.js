@@ -9,7 +9,7 @@ function Hero() {
                 Greetings and welcome to my portfolio
             </h1>
             <p className='hero-greeting'>My name is Richard Crippen and I am a web developer based in Atlanta, GA. I primarily utilize MERN stack 
-            technology to develop my applications.</p>
+            technologies to develop my applications.</p>
         </div>
     )
 }
