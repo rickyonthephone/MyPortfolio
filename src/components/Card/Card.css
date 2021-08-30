@@ -4,41 +4,30 @@
     padding: 0;
     font-family: 'PT Sans', sans-serif;
   }
-  
-  .home,
-  .services,
-  .products,
-  .sign-up {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
+
+  .cardContent {
+     display: flex; 
+     flex-direction: column;
+     min-width: auto;
   }
-  
-  .services {
-    background-image: url('/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+
+  .screenShotImage {
+    height: 300px;
+    margin: 5px;
   }
-  
-  .products {
-    background-image: url('/images/img-1.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+
+  .cardTitle {
+    text-align: center;
+    margin-bottom: 10px;
+    position:sticky;
   }
-  
-  .sign-up {
-    background-image: url('/images/img-8.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+
+  .cardDescription {
+    margin-bottom: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
   }
+
+.code .deploy {
+  padding-bottom: 50px;
+}

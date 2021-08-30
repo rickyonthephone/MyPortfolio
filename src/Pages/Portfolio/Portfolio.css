@@ -1,0 +1,23 @@
+.pageContent {
+    box-shadow: inset 0 0 0 1000px rgba( 0, 0, 0, 0.2);
+    background-image: linear-gradient(to bottom right, whitesmoke, grey);
+}
+
+.portfolioWrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.myTitle {
+    text-align: center;
+    height: 35px;
+}
+
+.grid, .cards {
+    display:grid;
+    justify-content:center;
+    width:100%;
+    margin-top: 5px;
+    align-content: center;
+}
